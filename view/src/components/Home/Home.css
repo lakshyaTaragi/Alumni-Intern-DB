@@ -7,7 +7,70 @@ html,body
     overflow-x: hidden; 
 }
 
-body{
-    background-image: url('./Assets/Vector 5.svg');
+.whole{
+    background-image: url('../Home/Assets/Vector 5.svg');
+    height: 704.41px;
+}
+
+/* .search{
+    float: left;
+} */
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 170px;
+}
+
+.content p{
+    width: 75%;
+    height: 50%;
+    justify-self: end;
+    font-size: 17px;
+    color: white;
+    line-height: 150%;
+}
+
+.desc{
+    display: grid;
+    grid-template-rows: 0.5fr 0.3fr 0.25fr 0.1fr;
+}
+
+.content h1{
+    justify-self: center;
+    /* align-self: end; */
+    font-size: 48px;
+    font-weight: 600;
+    width: 50%;
+    color: white;
+}
+#heading1{
+    align-self: end;
+    margin-bottom: 0;
+}
+
+#heading2{
+    align-self: start;
+    margin-top: 0;
 
 }
+#input{
+    justify-self: center;
+    width: 50%;
+}
+.ui.icon.input>input {
+    padding-right: 2.67142857em!important;
+    width: 100%;
+    margin-right: 5px;
+}
+.ui.selection.dropdown{
+    min-width: 5.5em;
+    padding-left: 1%;
+}
+/* .ui.input.focus>input, .ui.input>input:focus {
+    border-color: #85b7d9;
+    background: #fff;
+    color: rgba(0,0,0,.8);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+} */
