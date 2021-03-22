@@ -7,7 +7,8 @@ import arrow from './Assets/arrow.svg';
 import group from './Assets/Group.svg';
 import hat from './Assets/hat.svg';
 import user from './Assets/users.svg';
-import lens from './Assets/lens.svg'
+import lens from './Assets/lens.svg';
+import Footer from '../Footer/Footer';
 
 class Home extends React.Component{
     render(){
@@ -85,8 +86,10 @@ class Home extends React.Component{
                         </div>
                     </div>
                 </div>
-            </div>
-            
+                <div className="footer">
+                        <Footer/>
+                </div>
+            </div>   
         )
     }
 }
