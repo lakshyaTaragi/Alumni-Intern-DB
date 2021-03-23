@@ -8,7 +8,7 @@ import group from './Assets/Group.svg';
 import hat from './Assets/hat.svg';
 import user from './Assets/users.svg';
 import lens from './Assets/lens.svg';
-import Footer from '../Footer/Footer';
+import Footer from '../footer/Footer';
 
 class Home extends React.Component{
     render(){
@@ -24,13 +24,13 @@ class Home extends React.Component{
                             <div id="input" className="ui icon input">
                                 <input type="text" placeholder="Search..." />
                                 <i className="search icon"></i>
-                                <div class="ui selection dropdown">
+                                <div className="ui selection dropdown">
                                     <input type="hidden" name="gender" />
-                                    <i class="dropdown icon"></i>
-                                    <div class="default text">Choose</div>
-                                    <div class="menu">
-                                        <div class="item" data-value="1">Alum</div>
-                                        <div class="item" data-value="0">Intern</div>
+                                    <i className="dropdown icon"></i>
+                                    <div className="default text">Choose</div>
+                                    <div className="menu">
+                                        <div className="item" data-value="1">Alum</div>
+                                        <div className="item" data-value="0">Intern</div>
                                     </div>
                                 </div>
                             </div>

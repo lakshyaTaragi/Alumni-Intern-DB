@@ -20,6 +20,7 @@ html,body
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 170px;
+    color: white;
 }
 
 .content p{
@@ -27,7 +28,6 @@ html,body
     height: 50%;
     justify-self: end;
     font-size: 17px;
-    color: white;
     line-height: 150%;
 }
 
@@ -42,7 +42,6 @@ html,body
     font-size: 48px;
     font-weight: 600;
     width: 50%;
-    color: white;
 }
 #heading1{
     align-self: end;

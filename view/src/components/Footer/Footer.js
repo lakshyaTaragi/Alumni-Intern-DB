@@ -2,7 +2,7 @@ import React from 'react';
 import group from './Assets/Group.svg';
 import './footer.css';
 
-class footer extends React.Component{
+class Footer extends React.Component{
     render(){
         return(
             <div>
@@ -19,12 +19,10 @@ class footer extends React.Component{
                         </p>
                     </div>
                     <div className="right">
-                        <p>
-                            <div className="contact">Contact Us</div>
-                            <div className="info">+91123456789</div>
-                            <div className="info">+91123456789</div>
-                            <div className="info">abc@gmail.com</div>
-                        </p>
+                        <div className="contact">Contact Us</div>
+                        <div className="info">+91123456789</div>
+                        <div className="info">+91123456789</div>
+                        <div className="info">abc@gmail.com</div>
                     </div>
                 </div>
             </div>
@@ -33,4 +31,4 @@ class footer extends React.Component{
 }
 
 
-export default footer;
+export default Footer;
