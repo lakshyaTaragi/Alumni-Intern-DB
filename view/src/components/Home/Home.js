@@ -9,6 +9,7 @@ import hat from './Assets/hat.svg';
 import user from './Assets/users.svg';
 import lens from './Assets/lens.svg';
 import Footer from '../footer/Footer';
+import SearchBar from './SearchBar';
 
 class Home extends React.Component{
     render(){
@@ -21,19 +22,25 @@ class Home extends React.Component{
                             <h1 id="heading1">Search</h1>
                             <h1 id="heading2">the database</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo,</p>
-                            <div id="input" className="ui icon input">
+                            
+                            <SearchBar/>
+
+                            {/* <div id="input" className="ui icon input">
                                 <input type="text" placeholder="Search..." />
-                                <i className="search icon"></i>
+                                <i className="search icon"/>
+                                
                                 <div className="ui selection dropdown">
                                     <input type="hidden" name="gender" />
-                                    <i className="dropdown icon"></i>
+                                    <i className="dropdown icon"/>
                                     <div className="default text">Choose</div>
                                     <div className="menu">
                                         <div className="item" data-value="1">Alum</div>
                                         <div className="item" data-value="0">Intern</div>
                                     </div>
                                 </div>
-                            </div>
+
+                            </div> */}
+
                         </div>
                         <div>
                             <img src={search} alt="logo" />
@@ -85,6 +92,7 @@ class Home extends React.Component{
                             </p>
                         </div>
                     </div>
+                    
                 </div>
                 <div className="footer">
                         <Footer/>
